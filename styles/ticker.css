@@ -1,0 +1,42 @@
+/* Container ticker: memuat dua track (atas & bawah) */
+.ticker {
+  position: relative;
+  overflow: hidden;
+  /* Tinggi 2 baris x 3rem item + gap 1rem */
+  height: calc(2 * 3rem + 1rem);
+  margin-top: 2rem;
+}
+
+/* Track: satu baris horisontal, nowrap, bisa digeser */
+.ticker-track {
+  position: absolute;
+  white-space: nowrap;
+  display: flex;
+  gap: 1rem;
+}
+.ticker-track.top    { top: 0; }
+.ticker-track.bottom { bottom: 0; }
+
+/* Styling tiap software-item */
+.software-item {
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  padding: .6rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+}
+.software-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+/* Mobile: sembunyikan baris bawah, kurangi tinggi */
+@media (max-width: 576px) {
+  .ticker {
+    height: 3rem;
+  }
+  .ticker-track.bottom {
+    display: none;
+  }
+}

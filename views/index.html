@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portofolio - Mhd. Galih Khairi</title>
+  <meta name="description" content="Personal Website Mhd Galih Khairi - Web Developer and Grapich Designer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles/components.css" />
+  <link rel="stylesheet" href="../styles/layout.css" />
+  <link rel="stylesheet" href="../styles/sections.css" />
+  <link rel="stylesheet" href="../styles/variables.css" />
+</head>
+<body>
+  <!-- Preloader -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-circle"></div>
+      <div class="preloader-circle"></div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-container">
+      <a href="#home" class="logo">Personal<span>Website</span></a>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="active">Beranda</a></li>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#services">Layanan</a></li>
+          <li><a href="#portfolio">Portofolio</a></li>
+          <li><a href="#careers">Pengalaman</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+<!-- Tambahkan di dalam section hero -->
+<section id="home" class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <div class="typing-container">
+        <h3 class="typing-text" data-strings='["Hai, Selamat Datang!","Perkenalkan, Nama Saya"]'></h3>
+        <h1 class="hero-title">Mhd. Galih Khairi</h1>
+      </div>
+      <h2 class="hero-subtitle">Web Developer & Graphic Designer</h2>
+      <p class="hero-text">Saya seorang profesional di bidang teknologi dengan pengalaman 2+ tahun dalam pengembangan web dan desain grafis. Spesialis dalam membangun aplikasi web modern dan skalabel dengan fokus pada performa dan user experience yang optimal.</p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn btn-primary">
+          <i class="fas fa-comment-dots"></i> Hubungi Saya
+        </a>
+        <a href="#" class="btn btn-secondary">
+          <i class="fas fa-download"></i> Download CV
+        </a>
+      </div>
+      <div class="hero-social">
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="image-wrapper">
+        <img src="../images/Foto 1.jpg" alt="MHD. GALIH KHAIRI" class="profile-img" />
+        <div class="image-glow"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="section">
+  <div class="container">
+    <h2 class="section-title animate-in">Tentang Saya</h2>
+    <div class="about-content">
+      <div class="about-text animate-in">
+        <h3>Biografi</h3>
+        <p>Saya seorang Full Stack Developer dengan keahlian di bidang frontend dan backend development. Saya memiliki passion untuk menciptakan solusi teknologi yang inovatif dan bermanfaat bagi pengguna.</p>
+        <p>Dengan latar belakang pendidikan di bidang Ilmu Komputer dan pengalaman kerja di berbagai perusahaan teknologi, saya telah mengembangkan berbagai aplikasi web yang digunakan oleh ribuan pengguna.</p>
+        <p>Selain coding, saya juga menikmati fotografi, traveling, dan membaca buku tentang teknologi terbaru.</p>
+        <div class="about-stats">
+          <div class="stat-item animate-in">
+            <div class="stat-number" id="projectsCount" data-target="6">0</div>
+            <div class="stat-text">Jumlah Proyek</div>
+          </div>
+          <div class="stat-item animate-in">
+            <div class="stat-number" id="clientsCount" data-target="7">0</div>
+            <div class="stat-text">Sertifikat Kompetensi</div>
+          </div>
+          <div class="stat-item animate-in">
+            <div class="stat-number" id="experienceCount" data-target="2">0</div>
+            <div class="stat-text">Tahun Pengalaman</div>
+          </div>
+          <div class="stat-item animate-in">
+            <div class="stat-number" id="awardsCount" data-target="4">0</div>
+            <div class="stat-text">Artikel Ilmiah</div>
+          </div>
+        </div>
+      </div>
+      <div class="about-tech animate-in">
+        <h3>Keahlian Teknis</h3>
+        <div class="skills">
+          <div class="skill-item">
+            <div class="skill-name">
+              <span>Desain Grafis:</span>
+              <span>95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-progress="95%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">
+              <span>Video Editing:</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-progress="90%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">
+              <span>UI/UX Design:</span>
+              <span>85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-progress="85%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">
+              <span>Web Development:</span>
+              <span>80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-progress="80%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-section">
+          <h3>Pemrograman yang Dikuasai</h3>
+          <div class="tech-grid">
+            <div class="tech-card">
+              <i class="fab fa-js tech-icon"></i>
+              <h4>JavaScript</h4>
+              <p>ES6+, Node.js, TypeScript</p>
+            </div>
+            <div class="tech-card">
+              <i class="fab fa-react tech-icon"></i>
+              <h4>React</h4>
+              <p>Next.js, Redux, React Native</p>
+            </div>
+            <div class="tech-card">
+              <i class="fas fa-database tech-icon"></i>
+              <h4>Database</h4>
+              <p>MongoDB, MySQL, PostgreSQL</p>
+            </div>
+            <div class="tech-card">
+              <i class="fab fa-node-js tech-icon"></i>
+              <h4>Node.js</h4>
+              <p>Express, NestJS, REST API</p>
+            </div>
+            <div class="tech-card">
+              <i class="fab fa-php tech-icon"></i>
+              <h4>PHP</h4>
+              <p>Laravel, CodeIgniter, Laragon</p>
+            </div>
+            <div class="tech-card">
+              <i class="fab fa-python tech-icon"></i>
+              <h4>Python</h4>
+              <p>Django, Flask, FastAPI, Machine Learning</p>
+            </div>
+          </div>
+
+          <h3 style="margin-top: 4rem;">Software yang Dikuasai</h3>
+          <div class="software-grid">
+            <div class="software-item">
+              <img src="https://img.icons8.com/color/48/000000/adobe-photoshop.png" class="software-icon"/>
+              <span>Photoshop</span>
+            </div>
+            <div class="software-item">
+              <img src="https://img.icons8.com/color/48/000000/adobe-illustrator.png" class="software-icon"/>
+              <span>Illustrator</span>
+            </div>
+            <div class="software-item">
+              <img src="https://img.icons8.com/color/48/000000/adobe-premiere-pro.png" class="software-icon"/>
+              <span>Premiere Pro</span>
+            </div>
+            <div class="software-item">
+              <img src="https://img.icons8.com/color/48/000000/figma.png" class="software-icon"/>
+              <span>Figma</span>
+            </div>
+            <div class="software-item">
+              <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" class="software-icon"/>
+              <span>VS Code</span>
+            </div>
+            <div class="software-item">
+              <img src="https://img.icons8.com/color/48/000000/git.png" class="software-icon"/>
+              <span>Git</span>
+            </div>
+            <div class="software-item">
+              <img src="https://img.icons8.com/color/48/000000/docker.png" class="software-icon"/>
+              <span>Docker</span>
+            </div>
+            <div class="software-item">
+              <img src="https://img.icons8.com/?size=100&id=QEQQKirln6Tf&format=png&color=000000" class="software-icon"/>
+              <span>Postman</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Layanan Section -->
+  <section id="services" class="section">
+    <div class="container">
+      <h2 class="section-title animate-in">Layanan</h2>
+      <div class="services-grid">
+        <div class="service-item animate-in">
+          <div class="service-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>Pengembangan Web</h3>
+          <p>Pembangunan aplikasi web lengkap dari frontend hingga backend dengan teknologi terbaru seperti React, Node.js, dan database modern</p>
+        </div>
+        <div class="service-item animate-in">
+          <div class="service-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3>Responsive Design</h3>
+          <p>Desain website yang responsif dan kompatibel di semua perangkat dengan pendekatan mobile-first</p>
+        </div>
+        <div class="service-item animate-in">
+          <div class="service-icon">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>Desain antarmuka pengguna yang intuitif dan pengalaman pengguna optimal berbasis penelitian</p>
+        </div>
+        <div class="service-item animate-in">
+          <div class="service-icon">
+            <i class="fas fa-database"></i>
+          </div>
+          <h3>Database Management</h3>
+          <p>Optimasi dan manajemen database untuk performa maksimal dengan teknologi NoSQL dan SQL</p>
+        </div>
+        <div class="service-item animate-in">
+          <div class="service-icon">
+            <i class="fas fa-server"></i>
+          </div>
+          <h3>Cloud Deployment</h3>
+          <p>Layanan deployment aplikasi ke cloud dengan skalabilitas tinggi menggunakan AWS, GCP, atau Azure</p>
+        </div>
+        <div class="service-item animate-in">
+          <div class="service-icon">
+            <i class="fas fa-search"></i>
+          </div>
+          <h3>SEO Optimization</h3>
+          <p>Optimasi mesin pencari untuk meningkatkan visibilitas website Anda di hasil pencarian</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portofolio Section -->
+<section id="portfolio" class="section">
+  <div class="container">
+    <h2 class="section-title animate-in">Portofolio</h2>
+    
+    <div class="portfolio-grid">
+      <!-- Item 1 -->
+      <article class="portfolio-card">
+        <div class="card-media">
+          <img src="../images/SistemFuzzy.png" alt="Sistem Fuzzy" class="card-image">
+          <div class="card-badge">System</div>
+        </div>
+        
+        <div class="card-content">
+          <div class="card-header">
+            <h3 class="card-title">Sistem Fuzzy Penilaian Calon Aslab</h3>
+            <div class="card-meta">
+              <span class="card-date">2024</span>
+              <span class="card-duration">6 Minggu</span>
+            </div>
+          </div>
+          
+          <p class="card-desc">
+            Sistem cerdas berbasis logika fuzzy untuk penilaian kandidat dengan 
+            <span class="highlight">akurasi 92%</span> menggunakan algoritma Fuzzy Tsukamoto. 
+            Sistem ini mengelola data kandidat, menghitung nilai fuzzy, dan memberikan rekomendasi calon asisten laboratorium.
+          </p>
+          
+          <div class="card-footer">
+            <div class="tech-stack">
+              <div class="tech-item">
+                <i class="fab fa-php"></i>
+                Php
+              </div>
+              <div class="tech-item">
+                <i class="fas fa-database"></i>
+                MySQL
+              </div>
+              <div class="tech-item">
+                <i class="fa-solid fa-fire"></i>
+                CodeIgniter
+              </div>
+            </div>
+            
+            <div class="button-group">
+              <a href="https://sistem.fuzzypenelitian-calon.com" 
+                 class="project-button"
+                 target="_blank">
+                <i class="fas fa-rocket"></i>
+                Lihat Proyek
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Item 2 -->
+      <article class="portfolio-card">
+        <div class="card-media">
+          <img src="../images/VroidHub.png" alt="3D Character" class="card-image">
+          <div class="card-badge">3D Modeling</div>
+        </div>
+        
+        <div class="card-content">
+          <div class="card-header">
+            <h3 class="card-title">3D Model Character UINSU</h3>
+            <div class="card-meta">
+              <span class="card-date">2023</span>
+              <span class="card-duration">3 Minggu</span>
+            </div>
+          </div>
+          
+          <p class="card-desc">
+            Karakter 3D untuk avatar virtual UINSU yang dibuat dengan 
+            <span class="highlight">Vroid Studio</span> dan dioptimalkan untuk digunakan di platform 
+            <span class="highlight"></span> 
+            Blender dan Substance Painter
+          </p>
+          
+          <div class="card-footer">
+            <div class="tech-stack">
+              <div class="tech-item">
+                <i class="fas fa-cube"></i>
+                Blender
+              </div>
+              <div class="tech-item">
+                <i class="fas fa-paint-brush"></i>
+                Substance
+              </div>
+              <div class="tech-item">
+                <i class="fas fa-gamepad"></i>
+                Unity
+              </div>
+            </div>
+
+            <div class="button-group">
+              <a href="#0" class="project-button">
+                <i class="fas fa-rocket"></i>
+                Lihat Proyek
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+            <!-- Item 3 -->
+      <article class="portfolio-card">
+        <div class="card-media">
+          <img src="../images/Musperin.png" alt="Sistem Fuzzy" class="card-image">
+          <div class="card-badge">Website</div>
+        </div>
+        
+        <div class="card-content">
+          <div class="card-header">
+            <h3 class="card-title">Website Museum Perkebunan</h3>
+            <div class="card-meta">
+              <span class="card-date">2024</span>
+              <span class="card-duration">6 Minggu</span>
+            </div>
+          </div>
+          
+          <p class="card-desc">
+            Website resmi Mknologi modern untuk memberikan pengalaman pengguna yang optimal dan responsif di semua perangkuseum Perkebunan Indonesia dengan fitur 
+            <span class="highlight">berita, galeri, dan informasi museum</span>. Website ini dibangun dengan teat.
+          </p>
+          
+          <div class="card-footer">
+            <div class="tech-stack">
+              <div class="tech-item">
+                <i class="fab fa-node"></i>
+                Node.js
+              </div>
+              <div class="tech-item">
+                <i class="fas fa-database"></i>
+                MySQL
+              </div>
+              <div class="tech-item">
+                <i class="fab fa-node-js"></i>
+                Express.js
+              </div>
+              <div class="tech-item">
+                <i class="fa-brands fa-react"></i>
+                React
+              </div>
+            </div>
+            
+            <div class="button-group">
+              <a href="https://sistem.fuzzypenelitian-calon.com" 
+                 class="project-button"
+                 target="_blank">
+                <i class="fas fa-rocket"></i>
+                Lihat Proyek
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ======= Pengalaman Karir Section ======= -->
+<section id="careers" class="section">
+  <div class="container">
+    <h2 class="section-title">Pengalaman Karir</h2>
+    <div class="timeline-grid">
+      
+
+      <!-- Career Item #0 -->
+      <div class="timeline-item">
+        <div class="item-marker"></div>
+        <div class="item-content">
+          <span class="item-date">Kontrak</span>
+          <h3 class="item-title">FullStack Web Developer</h3>
+          <h4 class="item-subtitle">Museum Perkebunan Indonesia</h4>
+          <ul class="item-list">
+            <li>Memimpin tim pengembangan 5 orang untuk membangun aplikasi enterprise-scale</li>
+            <li>Mengimplementasikan arsitektur microservices dengan stack MERN</li>
+            <li>Mengoptimalkan performa aplikasi hingga 40% lebih cepat</li>
+            <li>Membuat sistem CI/CD untuk deployment otomatis</li>
+            <li>Melakukan code review dan mentoring junior developer</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Career Item #1 -->
+      <div class="timeline-item">
+        <div class="item-marker"></div>
+        <div class="item-content">
+          <span class="item-date">2025 – 2026</span>
+          <h3 class="item-title">Senior Graphic Designer</h3>
+          <h4 class="item-subtitle">Media Center Kabupaten Serdang Bedagai</h4>
+          <ul class="item-list">
+            <li>Memimpin tim pengembangan 5 orang untuk membangun aplikasi enterprise-scale</li>
+            <li>Mengimplementasikan arsitektur microservices dengan stack MERN</li>
+            <li>Mengoptimalkan performa aplikasi hingga 40% lebih cepat</li>
+            <li>Membuat sistem CI/CD untuk deployment otomatis</li>
+            <li>Melakukan code review dan mentoring junior developer</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Career Item #2 -->
+      <div class="timeline-item">
+        <div class="item-marker"></div>
+        <div class="item-content">
+          <span class="item-date">2024 – 2025</span>
+          <h3 class="item-title">Junior Web Developer</h3>
+          <h4 class="item-subtitle">Dinas Kominfo Kabupaten Serdang Bedagai</h4>
+          <ul class="item-list">
+            <li>Membantu pengembangan fitur-fitur kecil</li>
+            <li>Memperbaiki bug dan masalah teknis</li>
+            <li>Belajar best practices pengembangan web</li>
+            <li>Berpartisipasi dalam standup meeting mingguan</li>
+            <li>Membantu dalam dokumentasi teknis</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="item-marker"></div>
+        <div class="item-content">
+          <span class="item-date">2021 – 2022</span>
+          <h3 class="item-title">Multimedia Designer</h3>
+          <h4 class="item-subtitle">HMJ Ilmu Komputer UINSU</h4>
+          <ul class="item-list">
+            <li>Memimpin tim pengembangan 5 orang untuk membangun aplikasi enterprise-scale</li>
+            <li>Mengimplementasikan arsitektur microservices dengan stack MERN</li>
+            <li>Mengoptimalkan performa aplikasi hingga 40% lebih cepat</li>
+            <li>Membuat sistem CI/CD untuk deployment otomatis</li>
+            <li>Melakukan code review dan mentoring junior developer</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Tambah item baru di sini -->
+      
+    </div>
+  </div>
+</section>
+
+
+  <!-- Kontak Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title animate-in">Hubungi Saya</h2>
+      <div class="contact-content">
+        <div class="contact-info animate-in">
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <h4>Lokasi</h4>
+            <p>Medan, Indonesia</p>
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199.14184118649047!2d98.7113358!3d3.5751762!2m3!1f0!2f0!3f0!3m2!1i143!2i143!4f13.1!3m3!1m2!1s0x303131fc56ad45bf%3A0x9d2afee32de3349a!2sTahu%20Isi%20Pa%27Lek!5e0!3m2!1sid!2sid!4v1705680000000!5m2!1sid!2sid" 
+              width="100%" 
+              height="150" 
+              style="border:0; border-radius: 0.5rem; margin-top: 1rem;" 
+              allowfullscreen="" 
+              loading="lazy">
+            </iframe>
+          </div>
+          
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <h4>Email</h4>
+            <p>mgalihkhairi1@gmail.com</p>
+            <a href="mailto:mgalihkhairi1@gmail.com" class="btn btn-secondary" style="margin-top: 1rem; width: 100%;">
+              <i class="fas fa-envelope"></i> Kirim Email
+            </a>
+          </div>
+          
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <h4>Telepon</h4>
+            <p>+62 856 6406 7463</p>
+            <a href="tel:+6285664067463" class="btn btn-secondary" style="margin-top: 1rem; width: 100%;">
+              <i class="fas fa-phone"></i> Telepon Sekarang
+            </a>
+          </div>
+          
+          <div class="social-media-section">
+            <h4>Media Sosial</h4>
+            <p>Hubungi saya melalui media sosial berikut:</p>
+            <div class="social-links">
+              <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form animate-in" id="contactForm">
+          <div class="form-group">
+            <input type="text" placeholder="Nama Lengkap" id="name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Alamat Email" id="email" required>
+          </div>
+          <div class="form-group">
+            <select id="projectType" required>
+              <option value="">Pilih Subjek</option>
+              <option>Penawaran Kerja</option>
+              <option>Pengembangan Website</option>
+              <option>Layanan Desain Grafis</option>
+              <option>Editing Video</option>
+              <option>Lainnya</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <textarea rows="5" placeholder="Deskripsi Proyek Anda" id="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            <i class="fas fa-paper-plane"></i> Kirim Pesan
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <a href="#" class="footer-logo">Personal<span>Website</span></a>
+        <p class="footer-text">Full Stack Developer profesional dengan fokus pada kualitas dan pengalaman pengguna terbaik.</p>
+        <div class="footer-social-links">
+          <a href="#" class="footer-social-link"><i class="fab fa-github"></i></a>
+          <a href="#" class="footer-social-link"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="footer-social-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="footer-social-link"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="footer-social-link"><i class="fab fa-dribbble"></i></a>
+        </div>
+        <p class="copyright">© <span id="currentYear"></span> Mhd. Galih Khairi. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Theme Toggle -->
+  <button class="theme-toggle" id="themeToggle">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <!-- Back to Top Button -->
+  <a href="#home" class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <script src="../scripts/script.js"></script>
+  <script src="../scripts/typing.js"></script>
+</body>
+</html>
